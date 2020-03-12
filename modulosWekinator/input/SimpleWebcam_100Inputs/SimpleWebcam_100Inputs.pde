@@ -43,7 +43,7 @@ void setup() {
       println(i + " " + cameras[i]);
     }
 
-   video = new Capture(this, 1920,1080);
+   video = new Capture(this, 640,480);
     
     // Start capturing the images from the camera
     video.start();
